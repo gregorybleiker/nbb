@@ -1,4 +1,4 @@
-<img src="logo/nbb-with-name-green.svg" width="250px">
+# DO NOT USE! Only for testing!
 
 Not [babashka](https://babashka.org/). Node.js babashka!?
 
@@ -249,7 +249,7 @@ The name of the file that is currently being executed is available via
 (prn (:file (meta #'f))) ;; "/private/tmp/foo.cljs"
 ```
 
-In Python scripts there is a well-known pattern to check if the current file was the file invoked from the command line, 
+In Python scripts there is a well-known pattern to check if the current file was the file invoked from the command line,
 or loaded from another file: the __name__ == "__main__" pattern. In nbb this pattern can be implemented with:
 
 ```clojure
@@ -763,6 +763,10 @@ To build:
 - `bb release`
 
 Run `bb tasks` for more project-related tasks.
+
+### JSR build
+
+- run `deno publish --dry-run` after `bb release`
 
 ## Credits
 
