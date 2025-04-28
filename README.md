@@ -766,7 +766,8 @@ Run `bb tasks` for more project-related tasks.
 
 ### JSR build
 
-- run `deno publish --dry-run` after `bb release`
+- run `deno publish` after `bb release`
+
 
 ## Credits
 
