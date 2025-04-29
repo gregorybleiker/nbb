@@ -1,5 +1,5 @@
 export * from "./lib/nbb_api.js"
-export * from "./lib/nbb_bundler.js"
+// export * from "./lib/nbb_bundler.js"
 export * from "./lib/nbb_cljs_bean.js"
 export * from "./lib/nbb_core.js"
 export * from "./lib/nbb_data.js"
