@@ -768,6 +768,7 @@ Run `bb tasks` for more project-related tasks.
 
 - run `deno publish` after `bb release`
 
+currently using `deno publish  --unstable-bare-node-builtins  --dry-run --allow-dirty`
 
 ## Credits
 
