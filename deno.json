@@ -1,6 +1,6 @@
 {
     "name": "@gregb/jsr-nbb-tryout",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "exports": {
         ".": "./api.mjs",
         "./reagent.core": "./reagent.mjs"
