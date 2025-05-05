@@ -12,7 +12,7 @@
 
 ;(prn (js/JSON.stringify atom))
 
-(def state (r/atom 0))
+(defonce state (r/atom 0))
 
 (def  app  (new h/Hono))
 
