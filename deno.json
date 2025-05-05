@@ -1,10 +1,14 @@
 {
     "name": "@gregb/jsr-nbb-tryout",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "exports": {
         ".": "./lib/nbb_api.js",
-        "./main": "./lib/nbb_main.js"
+        "./main": "./lib/nbb_main.js",
+        "./reagent.core": "./lib/nbb_reagent.js"
     },
+    "tasks": {
+        "run": "deno -A jsr:@gregb/jsr-nbb-tryout/main sample.cljs"
+    }
     "nodeModulesDir": "auto",
     "publish": {
         "exclude": [
