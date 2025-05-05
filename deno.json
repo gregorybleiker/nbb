@@ -1,0 +1,17 @@
+{
+    "name": "@gregb/jsr-nbb-tryout",
+    "version": "0.0.9",
+    "exports": {
+        ".": "./lib/nbb_api.js",
+        "./main": "./lib/nbb_main.js"
+    },
+    "nodeModulesDir": "auto",
+    "publish": {
+        "exclude": [
+            "!lib/",
+            "doc/*",
+            "examples/*",
+            "test/*",
+            "test-scripts/*"]
+    }
+}
